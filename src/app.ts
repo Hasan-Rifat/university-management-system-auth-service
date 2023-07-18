@@ -1,4 +1,4 @@
-import { Application, Response } from 'express'
+import { Application, Response, Request } from 'express'
 import cors from 'cors'
 import express from 'express'
 
@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', (res: Response) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!')
 })
 
