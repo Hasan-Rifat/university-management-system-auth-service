@@ -6,4 +6,5 @@ const router = express.Router()
 
 router.post('/create-user', usersController.createUser)
 
+//data
 export default router
