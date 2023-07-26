@@ -1,0 +1,2 @@
+Sun Jul 23 2023 18:20:42 GMT+0600 (Bangladesh Standard Time) 18 20 42 [right meow!] error: failed to connect to database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+Sun Jul 23 2023 18:20:52 GMT+0600 (Bangladesh Standard Time) 18 20 52 [right meow!] error: failed to connect to database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.

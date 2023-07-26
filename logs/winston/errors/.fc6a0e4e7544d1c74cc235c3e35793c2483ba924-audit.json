@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/errors/.fc6a0e4e7544d1c74cc235c3e35793c2483ba924-audit.json",
+    "files": [
+        {
+            "date": 1690114737124,
+            "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/errors/phu-2023-07-23-18-error.log",
+            "hash": "7475e97a8eb7eacee642244c8ac9397eb7f329a9f23aa6fe2ffa8da6d89e54a9"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,7 +1,7 @@
 import config from '../../../config'
-import { User } from './users.model'
-import { IUser } from './users.interface'
-import { generateUserId } from './users.utils'
+import { User } from './user.model'
+import { IUser } from './user.interface'
+import { generateUserId } from './user.utils'
 
 const createUser = async (user: IUser): Promise<IUser | null | undefined> => {
   try {
@@ -13,8 +13,6 @@ const createUser = async (user: IUser): Promise<IUser | null | undefined> => {
       user.password = config.default_user_password as string
     }
 
-    console.log('user', user)
-
     const createdUser = await User.create(user)
 
     if (!createdUser) {
@@ -23,10 +21,10 @@ const createUser = async (user: IUser): Promise<IUser | null | undefined> => {
 
     return createdUser
   } catch (error) {
-    console.log(error)
+    throw error as Error
   }
 }
 
-export default {
+export const UsersService = {
   createUser,
 }
