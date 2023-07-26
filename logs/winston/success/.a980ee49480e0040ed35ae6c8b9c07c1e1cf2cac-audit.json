@@ -1,45 +1,45 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/.a980ee49480e0040ed35ae6c8b9c07c1e1cf2cac-audit.json",
+  "files": [
+    {
+      "date": 1690114795085,
+      "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-23-07-18-success.log",
+      "hash": "ff51c7e6b7a01838c8a415bcd52fd4486358d2d241b1f100c37b9fe2d50d4a6e"
     },
-    "auditLog": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/.a980ee49480e0040ed35ae6c8b9c07c1e1cf2cac-audit.json",
-    "files": [
-        {
-            "date": 1690114795085,
-            "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-23-07-18-success.log",
-            "hash": "ff51c7e6b7a01838c8a415bcd52fd4486358d2d241b1f100c37b9fe2d50d4a6e"
-        },
-        {
-            "date": 1690127426862,
-            "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-23-07-21-success.log",
-            "hash": "1d45429d413f78b02937c3adc8d2e509c2879d3e29e014a1ede329a820b29585"
-        },
-        {
-            "date": 1690128023130,
-            "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-23-07-22-success.log",
-            "hash": "cd285d7cd6b30e42b589232e0836f03329cfac333a4bfd03c91feb10ef8ec4a4"
-        },
-        {
-            "date": 1690191359371,
-            "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-24-07-15-success.log",
-            "hash": "3ac31a414bc9bff88deea3afaca71fd08c255759eb201bcbf23cbd277fc31eeb"
-        },
-        {
-            "date": 1690299926647,
-            "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-25-07-21-success.log",
-            "hash": "5177ce9f4e3d13ef1da7dcc6322701b3d1bcfa315bc26da109ec51057841c4e2"
-        },
-        {
-            "date": 1690300803822,
-            "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-25-07-22-success.log",
-            "hash": "ed2c2b38f52035e4ba2f06a7fc20574e07ad5af12d7f1e047814e2d3771dd149"
-        },
-        {
-            "date": 1690308568447,
-            "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-26-07-00-success.log",
-            "hash": "87da7dbeb8a39b9f33a1c6e145a5e2869d60be09d8338d81afdab358f6359256"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1690127426862,
+      "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-23-07-21-success.log",
+      "hash": "1d45429d413f78b02937c3adc8d2e509c2879d3e29e014a1ede329a820b29585"
+    },
+    {
+      "date": 1690128023130,
+      "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-23-07-22-success.log",
+      "hash": "cd285d7cd6b30e42b589232e0836f03329cfac333a4bfd03c91feb10ef8ec4a4"
+    },
+    {
+      "date": 1690191359371,
+      "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-24-07-15-success.log",
+      "hash": "3ac31a414bc9bff88deea3afaca71fd08c255759eb201bcbf23cbd277fc31eeb"
+    },
+    {
+      "date": 1690299926647,
+      "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-25-07-21-success.log",
+      "hash": "5177ce9f4e3d13ef1da7dcc6322701b3d1bcfa315bc26da109ec51057841c4e2"
+    },
+    {
+      "date": 1690300803822,
+      "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-25-07-22-success.log",
+      "hash": "ed2c2b38f52035e4ba2f06a7fc20574e07ad5af12d7f1e047814e2d3771dd149"
+    },
+    {
+      "date": 1690308568447,
+      "name": "/mnt/2ED6AF4CD6AF12DF/0_Job/all prectiess/jonkar vai/New/all prectis/next-level/mission 3 with university management system/university management system/logs/winston/success/phu-2023-26-07-00-success.log",
+      "hash": "87da7dbeb8a39b9f33a1c6e145a5e2869d60be09d8338d81afdab358f6359256"
+    }
+  ],
+  "hashType": "sha256"
 }
