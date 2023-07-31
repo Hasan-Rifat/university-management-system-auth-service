@@ -1,0 +1,24 @@
+{
+  message: 'SIGTERM signal received: closing HTTP server',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-07-27T21:16:25.231Z'
+}
+{
+  message: 'HTTP server closed',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-07-27T21:16:25.304Z'
+}
+{
+  message: 'SIGTERM signal received: closing HTTP server',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-07-27T21:16:25.305Z'
+}
+{
+  message: 'HTTP server closed',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-07-27T21:16:25.306Z'
+}

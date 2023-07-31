@@ -1,0 +1,24 @@
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-07-28T12:30:38.244Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-07-28T12:30:38.258Z'
+}
+{
+  message: 'SIGTERM signal received: closing HTTP server',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-07-28T12:37:21.257Z'
+}
+{
+  message: 'HTTP server closed',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-07-28T12:37:21.263Z'
+}
