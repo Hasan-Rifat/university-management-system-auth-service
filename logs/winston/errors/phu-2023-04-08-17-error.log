@@ -1,0 +1,2 @@
+Fri Aug 04 2023 17:48:02 GMT+0600 (Bangladesh Standard Time) 17 48 2 [right meow!] error: globalErrorHandler ~ Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+Fri Aug 04 2023 17:53:22 GMT+0600 (Bangladesh Standard Time) 17 53 22 [right meow!] error: globalErrorHandler ~ $and/$or/$nor must be a nonempty array

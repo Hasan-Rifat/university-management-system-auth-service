@@ -37,9 +37,9 @@ async function db() {
 
 db();
 
-process.on('SIGTERM', () => {
+/* process.on('SIGTERM', () => {
   logger.info('SIGTERM signal received: closing HTTP server');
   if (server) {
     server.close();
   }
-});
+}); */

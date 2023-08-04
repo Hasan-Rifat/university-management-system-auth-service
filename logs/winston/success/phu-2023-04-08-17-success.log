@@ -1,0 +1,138 @@
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:02:09.090Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:03:56.409Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:04:41.303Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:05:49.429Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:05:49.444Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:05:56.227Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:05:56.242Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:37:09.056Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:37:09.071Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:40:16.364Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:40:16.374Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:40:53.165Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:40:53.172Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:42:10.064Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:42:10.070Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:47:22.428Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:47:22.439Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:47:44.909Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:47:44.925Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:47:58.339Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:47:58.348Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:48:59.266Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T11:48:59.282Z'
+}

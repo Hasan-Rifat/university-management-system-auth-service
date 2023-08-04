@@ -1,0 +1,6 @@
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-04T09:33:06.601Z'
+}
