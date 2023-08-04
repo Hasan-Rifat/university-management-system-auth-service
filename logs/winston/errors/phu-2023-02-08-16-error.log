@@ -1,0 +1,17 @@
+Wed Aug 02 2023 16:20:02 GMT+0600 (Bangladesh Standard Time) 16 20 2 [right meow!] error: globalErrorHandler ~ [
+  {
+    "received": "",
+    "code": "invalid_enum_value",
+    "options": [
+      "Autumn",
+      "Summer",
+      "Fall"
+    ],
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Invalid enum value. Expected 'Autumn' | 'Summer' | 'Fall', received ''"
+  }
+]
+Wed Aug 02 2023 16:21:56 GMT+0600 (Bangladesh Standard Time) 16 21 56 [right meow!] error: globalErrorHandler ~ Academic Semester already exist

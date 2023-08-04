@@ -1,0 +1,26 @@
+Wed Aug 02 2023 19:12:02 GMT+0600 (Bangladesh Standard Time) 19 12 2 [right meow!] error: globalErrorHandler ~ invalid semester code
+Wed Aug 02 2023 19:12:12 GMT+0600 (Bangladesh Standard Time) 19 12 12 [right meow!] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Wed Aug 02 2023 19:57:40 GMT+0600 (Bangladesh Standard Time) 19 57 40 [right meow!] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Wed Aug 02 2023 19:58:11 GMT+0600 (Bangladesh Standard Time) 19 58 11 [right meow!] error: globalErrorHandler ~ invalid semester code

@@ -6,7 +6,6 @@ import { Server } from 'http';
 
 process.on('uncaughtException', error => {
   errorLogger.error(error);
-  // errorLogger.error(error)
   process.exit(1);
 });
 
@@ -35,6 +34,7 @@ async function db() {
     }
   });
 }
+
 db();
 
 process.on('SIGTERM', () => {

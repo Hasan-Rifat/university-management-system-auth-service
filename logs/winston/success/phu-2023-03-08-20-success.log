@@ -1,0 +1,42 @@
+{
+  message: 'SIGTERM signal received: closing HTTP server',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-03T14:22:21.194Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-03T14:25:09.817Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-03T14:25:09.836Z'
+}
+{
+  message: 'SIGTERM signal received: closing HTTP server',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-03T14:25:39.892Z'
+}
+{
+  message: 'database connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-03T14:26:12.045Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-03T14:26:12.053Z'
+}
+{
+  message: 'SIGTERM signal received: closing HTTP server',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-03T14:42:40.359Z'
+}
