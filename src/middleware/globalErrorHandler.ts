@@ -8,7 +8,7 @@ import handleZodError from '../errors/handleZodError';
 import { ErrorRequestHandler } from 'express';
 import handleCastError from '../errors/handleCastError';
 
-const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
   // eslint-disable-next-line no-unused-expressions
   config.env === 'development'
     ? // eslint-disable-next-line no-console
@@ -63,8 +63,6 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     errorMessages,
     stack: config.env !== 'production' ? error.stack : undefined,
   });
-
-  next();
 };
 
 export default globalErrorHandler;

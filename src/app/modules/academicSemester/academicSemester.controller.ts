@@ -1,4 +1,4 @@
-import { NextFunction, Request, RequestHandler, Response } from 'express';
+import { Request, RequestHandler, Response } from 'express';
 import { AcademicSemesterService } from './academicSemester.service';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
@@ -9,7 +9,7 @@ import { IAcademicSemester } from './academicSemester.interface';
 import { academicSemesterFilterableFields } from './academicSemester.constant';
 
 const createSemester: RequestHandler = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     const { ...academicSemesterData } = req.body;
     const result = await AcademicSemesterService.createSemester(
       academicSemesterData,
@@ -21,68 +21,72 @@ const createSemester: RequestHandler = catchAsync(
       data: result,
       statusCode: httpStatus.OK,
     });
-    next();
   },
 );
 
-const getAllSemester = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
-    const filters = pick(req.query, academicSemesterFilterableFields);
+const getAllSemester = catchAsync(async (req: Request, res: Response) => {
+  const filters = pick(req.query, academicSemesterFilterableFields);
 
-    const paginationOptions = pick(req.query, pagination);
+  const paginationOptions = pick(req.query, pagination);
 
-    const result = await AcademicSemesterService.getAllSemester(
-      filters,
-      paginationOptions,
-    );
+  const result = await AcademicSemesterService.getAllSemester(
+    filters,
+    paginationOptions,
+  );
 
-    sendResponse<IAcademicSemester[]>(res, {
-      success: true,
-      message: 'Academic Semester fetch successfully',
-      data: result.data,
-      meta: result.meta,
-      statusCode: httpStatus.OK,
-    });
-    next();
-  },
-);
+  sendResponse<IAcademicSemester[]>(res, {
+    success: true,
+    message: 'Academic Semester fetch successfully',
+    data: result.data,
+    meta: result.meta,
+    statusCode: httpStatus.OK,
+  });
+});
 
-const getSingleSemester = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
-    const { id } = req.params;
+const getSingleSemester = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
 
-    const result = await AcademicSemesterService.getSingleSemester(id);
+  const result = await AcademicSemesterService.getSingleSemester(id);
 
-    sendResponse<IAcademicSemester>(res, {
-      success: true,
-      message: 'Academic Semester fetch successfully',
-      data: result,
-      statusCode: httpStatus.OK,
-    });
-    next();
-  },
-);
+  sendResponse<IAcademicSemester>(res, {
+    success: true,
+    message: 'Academic Semester fetch successfully',
+    data: result,
+    statusCode: httpStatus.OK,
+  });
+});
 
-const updateSemester = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
-    const { id } = req.params;
-    const updateData = req.body;
+const updateSemester = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const updateData = req.body;
 
-    const result = await AcademicSemesterService.updateSemester(id, updateData);
+  const result = await AcademicSemesterService.updateSemester(id, updateData);
 
-    sendResponse<IAcademicSemester>(res, {
-      success: true,
-      message: 'Academic Semester update successfully',
-      data: result,
-      statusCode: httpStatus.OK,
-    });
-    next();
-  },
-);
+  sendResponse<IAcademicSemester>(res, {
+    success: true,
+    message: 'Academic Semester update successfully',
+    data: result,
+    statusCode: httpStatus.OK,
+  });
+});
+
+const deleteSemester = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+
+  const result = await AcademicSemesterService.deleteSemester(id);
+
+  sendResponse<IAcademicSemester>(res, {
+    success: true,
+    message: 'Academic Semester delete successfully',
+    data: result,
+    statusCode: httpStatus.OK,
+  });
+});
 
 export const AcademicSemesterController = {
   createSemester,
   getAllSemester,
   getSingleSemester,
   updateSemester,
+  deleteSemester,
 };
