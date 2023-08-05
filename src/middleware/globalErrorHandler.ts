@@ -6,6 +6,7 @@ import { errorLogger } from '../shared/logger';
 import { ZodError } from 'zod';
 import handleZodError from '../errors/handleZodError';
 import { ErrorRequestHandler } from 'express';
+import handleCastError from '../errors/handleCastError';
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   // eslint-disable-next-line no-unused-expressions
@@ -20,6 +21,11 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
 
   if (error?.name === 'ValidationError') {
     const simpleFieldError = handleValidationError(error);
+    statusCode = simpleFieldError.statusCode;
+    message = simpleFieldError.message;
+    errorMessages = simpleFieldError.errorMessages;
+  } else if (error?.name === 'CastError') {
+    const simpleFieldError = handleCastError(error);
     statusCode = simpleFieldError.statusCode;
     message = simpleFieldError.message;
     errorMessages = simpleFieldError.errorMessages;

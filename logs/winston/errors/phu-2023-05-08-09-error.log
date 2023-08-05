@@ -1,0 +1,50 @@
+Sat Aug 05 2023 09:51:46 GMT+0600 (Bangladesh Standard Time) 9 51 46 [right meow!] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "year is required"
+  },
+  {
+    "expected": "'01' | '02' | '03'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "code is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "startMonth"
+    ],
+    "message": "startMonth is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "endMonth"
+    ],
+    "message": "endMonth is required"
+  }
+]
+Sat Aug 05 2023 09:53:12 GMT+0600 (Bangladesh Standard Time) 9 53 12 [right meow!] error: globalErrorHandler ~ [
+  {
+    "code": "custom",
+    "message": "title and code both are required or both are not required",
+    "path": []
+  }
+]
+Sat Aug 05 2023 09:57:08 GMT+0600 (Bangladesh Standard Time) 9 57 8 [right meow!] error: globalErrorHandler ~ invalid semester code
